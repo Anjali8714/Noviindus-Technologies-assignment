@@ -42,7 +42,7 @@ const Navbar = () => {
             <span>info@educare.qa</span>
           </div>
         </div>
-        <button className="bg-white  text-[#8A1538] border rounded px-2 py-3 mr-32 w-36">
+        <button className="bg-white  text-[#8A1538] hover:bg-[#f2d4a4] border rounded px-2 py-3 mr-32 w-36">
           Contact Us
         </button>
       </div>
