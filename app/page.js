@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar from './navbar/page'
 import Footer from './footer/page'
 import Lastestpost from '@/Components/lastestpost'
+import Questions from '@/Components/questions'
 
 const page = () => {
   return (
     <div>
       <Navbar/>
-      <h1 className='text-3xl'>Welcome user</h1>
       <Lastestpost/>
+      <Questions/>
       <Footer/>
     </div>
   )
